@@ -1,0 +1,12 @@
+.aerodynamic-showcase{
+    /* border: 1px solid red; */
+    width:1200px;
+    margin:auto;
+    height:700px;
+}
+
+.aerodynamic-image{
+    width:100%;
+    position: relative;
+    top:-100px;
+}

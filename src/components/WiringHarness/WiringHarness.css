@@ -1,0 +1,12 @@
+.wiring-harness-showcase{
+    /* border: 1px solid red; */
+    width:1200px;
+    margin:auto;
+    height:700px;
+}
+
+.wiring-harness-image{
+    width:100%;
+    position: relative;
+    top:-100px;
+}

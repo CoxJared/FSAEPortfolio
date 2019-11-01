@@ -6,7 +6,7 @@ export class HomePage extends Component {
     render() {
         return (
             <div>
-                <ProfileBox />
+                <ProfileBox home="is-home"/>
                 <Formula />
             </div>
         )

@@ -8,10 +8,11 @@
 }
 
     .projects-project-link-container{
+        position:relative;
         flex: 1;
         margin: auto;
-        width:400px;
-        height:330px;
+        width:500px;
+        height:370px;
         padding-top:50px;
         /* border:1px solid green; */
     }
