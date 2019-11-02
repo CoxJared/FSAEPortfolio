@@ -8,6 +8,10 @@ import  './FrontWing.css';
 
 
 export class FrontWing extends Component {
+    componentDidMount() {
+        window.scrollTo(0, 0)
+    }
+    
     render() {
         return (
             <div>

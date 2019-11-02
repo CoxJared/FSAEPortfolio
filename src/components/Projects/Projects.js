@@ -4,10 +4,12 @@ import ProjectLink from '../ProjectLink/ProjectLink';
 
 import websiteThumbnail from './../../img/project/website-thumbnail.jpg';
 import aerodynamicThumbnail from './../../img/aerodynamics/thumbnail.png';
-import wireharnessThumbnail from './../../img/WiringHarness/wiring-harness.png';
+import wireharnessThumbnail from './../../img/WiringHarness/original.png';
 import frontwingThumbnail from './../../img/aerodynamics/new wing.png';
 import monocoqueThumbnail from './../../img/project/monocoque-thumbnail.png';
-import assemblyThumbnail from './../../img/project/accumulator-thumbnail.png'
+import assemblyThumbnail from './../../img/project/accumulator-thumbnail.png';
+
+import temp from './../../img/project/aerodynamic-thumbnail.png';
 
 export class Projects extends Component {
     constructor(props){
@@ -30,12 +32,13 @@ export class Projects extends Component {
                 type:"modelling",
                 thumbnail:frontwingThumbnail,
                 link:"/frontwing"},
-                {name:"Monocoque Analysis",
-                type:"modelling",
-                thumbnail:monocoqueThumbnail},
                 {name:"Assembly Animaitons",
                 type:"modelling",
-                thumbnail:assemblyThumbnail}
+                thumbnail:assemblyThumbnail},
+                {name:"Monocoque Analysis",
+                type:"modelling",
+                thumbnail:temp}
+                
             ]
         }
     }

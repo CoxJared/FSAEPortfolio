@@ -12,7 +12,7 @@ export class ProfileBox extends Component {
                 <div className="profile-box-name-container">
                     <h1 className="profile-box-name">Jared Cox</h1>
                     <a className="linkedin-link-container" href="https://www.linkedin.com/in/jared-cox-110591149/" target="_blank" rel="noopener noreferrer">
-                        <i class="fa fa-linkedin" style={{fontSize:"50px",color:"white"}}></i>
+                        <i class="fa fa-linkedin" style={{fontSize:"45px",color:"white"}}></i>
                     </a>
                 </div>
                 <div className="profile-box-school-container">

@@ -3,6 +3,10 @@ import ProfileBox from './../ProfileBox/ProfileBox';
 import Formula from './../Formula/Formula';
 
 export class HomePage extends Component {
+    componentDidMount() {
+        window.scrollTo(0, 0)
+    }
+
     render() {
         return (
             <div>
