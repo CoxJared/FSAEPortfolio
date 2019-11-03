@@ -42,6 +42,11 @@ export class ProjectPage extends Component {
                         </div>
                     ))}
                 </div>
+                <div className="project-description-container">
+                    <p className="project-description">
+                        {this.props.description}
+                    </p>
+                </div>
             </div>
         )
     }

@@ -32,7 +32,7 @@
 
 .showcase-image-selector-container{
     /* border:1px solid blue; */
-    width:1000px;
+    width:920px;
     height:130px;
     margin:auto;
     display:flex;
@@ -55,4 +55,15 @@
 .showcase-image-selector-image{
     object-fit: cover; 
     width:100%;
+}
+
+.project-description-container{
+    width:900px;
+    margin:40px auto 100px;
+}
+
+.project-description{
+    font-size: 23px;
+    line-height:1.5;
+    font-weight: 200;
 }
