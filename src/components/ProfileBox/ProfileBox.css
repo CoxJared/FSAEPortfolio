@@ -57,7 +57,7 @@
         }
         .home-link{
             width:40px;
-            opacity:.3;
+            opacity:.2;
             margin:auto;
             transition:.3s ease all;
             z-index: 20;

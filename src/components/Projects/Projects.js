@@ -6,8 +6,7 @@ import websiteThumbnail from './../../img/project/website-thumbnail.jpg';
 import aerodynamicThumbnail from './../../img/aerodynamics/thumbnail.png';
 import wireharnessThumbnail from './../../img/WiringHarness/original.png';
 import frontwingThumbnail from './../../img/aerodynamics/new wing.png';
-import monocoqueThumbnail from './../../img/project/monocoque-thumbnail.png';
-import assemblyThumbnail from './../../img/project/accumulator-thumbnail.png';
+import assemblyThumbnail from './../../img/accumulatorassembly/full-accumulator.png';
 
 import temp from './../../img/project/aerodynamic-thumbnail.png';
 
@@ -16,28 +15,30 @@ export class Projects extends Component {
         super(props)
         this.state = {
             projects:[
-                {name:"Aerodynamic Development",
-                type:"modelling",
-                thumbnail:aerodynamicThumbnail,
-                link:"/aerodynamics"},
-                {name:"Team Website",
-                type:"website",
-                link:"https://macformularacing.com/",
-                thumbnail:websiteThumbnail},
                 {name:"Wiring Harness",
                 type:"modelling",
                 thumbnail:wireharnessThumbnail,
                 link:"/wiringharness"},
+                
+                {name:"Team Website",
+                type:"website",
+                link:"https://macformularacing.com/",
+                thumbnail:websiteThumbnail},
                 {name:"Front-wing Analysis",
                 type:"modelling",
                 thumbnail:frontwingThumbnail,
                 link:"/frontwing"},
-                {name:"Assembly Animaitons",
+                {name:"Aerodynamic Development",
                 type:"modelling",
-                thumbnail:assemblyThumbnail},
-                {name:"Monocoque Analysis",
+                thumbnail:aerodynamicThumbnail,
+                link:"/aerodynamics"},
+                {name:"Accumulator Assembly",
                 type:"modelling",
-                thumbnail:temp}
+                thumbnail:assemblyThumbnail,
+                link:"/accumulatorassembly"},
+                // {name:"Monocoque Analysis",
+                // type:"modelling",
+                // thumbnail:temp}
                 
             ]
         }
@@ -53,6 +54,7 @@ export class Projects extends Component {
                     project={project}
                     />
                 </div>))}   
+                <div className="projects-project-link-container"/>
                          
             </div>
         )

@@ -3,9 +3,10 @@ import './App.css';
 import { BrowserRouter as Router,  Route } from 'react-router-dom';
 
 import HomePage from './components/HomePage/HomePage';
-import Aerodynamics from './components/Aerodynamics/Aerodynamics';
-import WiringHarness from './components/WiringHarness/WiringHarness';
-import FrontWing from './components/FrontWing/FrontWing';
+import Aerodynamics from './components/ProjectPage/Aerodynamics';
+import WiringHarness from './components/ProjectPage/WiringHarness';
+import FrontWing from './components/ProjectPage/FrontWing';
+import AccumulatorAssembly from './components/ProjectPage/AccumulatorAssembly';
 
 function App() {
   return (
@@ -20,6 +21,8 @@ function App() {
           component={WiringHarness} />
         <Route path="/frontwing" 
           component={FrontWing} />
+          <Route path="/accumulatorassembly" 
+          component={AccumulatorAssembly} />
       </div>
     </Router>
   );

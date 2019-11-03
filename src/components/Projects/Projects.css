@@ -5,12 +5,14 @@
     display: flex;
     flex-wrap: wrap;
     align-content: flex-start;
+
 }
 
     .projects-project-link-container{
         position:relative;
         flex: 1;
-        margin: auto;
+        /* margin: auto; */
+        margin: 0 20px 0 auto;
         width:400px;
         height:330px;
         padding-top:50px;

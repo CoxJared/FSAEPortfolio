@@ -16,7 +16,7 @@ export class ProfileBox extends Component {
                     </a>
                 </div>
                 <div className="profile-box-school-container">
-                    <h1 className="profile-box-school">McMaster University | Mechanical Engineering 2021</h1>
+                    <h1 className="profile-box-school">McMaster University | Mechanical Engineering 2020</h1>
                 </div>
                 
                 <div className="home-link-container">
