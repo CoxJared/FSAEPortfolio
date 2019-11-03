@@ -17,7 +17,7 @@
     /* border: 1px solid red; */
     width:780px;
     margin:30px auto;
-    height:470px;
+    height:480px;
     overflow: hidden;
     /* margin-bottom:10px; */
     
@@ -26,8 +26,17 @@
 .showcase-image{
     object-fit: cover; 
     width:100%;
+    height:450px;
     object-position: center;
     /* top:-100px; */
+}
+.showcase-description{
+    /* border:1px solid blue; */
+    height:30px;
+    padding:  9px 0;
+    font-size:14x;
+    color:#777;
+    font-weight: lighter;
 }
 
 .showcase-image-selector-container{

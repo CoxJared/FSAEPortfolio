@@ -33,12 +33,13 @@ export class ProjectPage extends Component {
                     </h1>
                 </div>
                 <div className="showcase-container">
-                    <img src={this.state.showcase} className="showcase-image"/>
+                    <img src={this.state.showcase.image} className="showcase-image"/>
+                    <p className="showcase-description">{this.state.showcase.description}</p>
                 </div>
                 <div className="showcase-image-selector-container">
                     {this.state.images.map(img => (
                         <div className="showcase-image-selector-image-container" onClick={this.updateShowcase.bind(this,img)}>
-                            <img src={img} className="showcase-image-selector-image"/>
+                            <img src={img.image} className="showcase-image-selector-image"/>
                         </div>
                     ))}
                 </div>
