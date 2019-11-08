@@ -7,6 +7,7 @@ import Aerodynamics from './components/ProjectPage/Aerodynamics';
 import WiringHarness from './components/ProjectPage/WiringHarness';
 import FrontWing from './components/ProjectPage/FrontWing';
 import AccumulatorAssembly from './components/ProjectPage/AccumulatorAssembly';
+import BcmCooling from './components/ProjectPage/BcmCooling';
 
 function App() {
   return (
@@ -23,6 +24,8 @@ function App() {
           component={FrontWing} />
           <Route path="/accumulatorassembly" 
           component={AccumulatorAssembly} />
+        <Route path="/pcbcooling" 
+          component={BcmCooling} />
       </div>
     </Router>
   );

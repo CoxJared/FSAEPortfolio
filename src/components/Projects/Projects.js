@@ -7,6 +7,7 @@ import aerodynamicThumbnail from './../../img/aerodynamics/thumbnail.png';
 import wireharnessThumbnail from './../../img/WiringHarness/original.png';
 import frontwingThumbnail from './../../img/aerodynamics/new wing.png';
 import assemblyThumbnail from './../../img/accumulatorassembly/full-accumulator.png';
+import bcmcoolingThumbnail from './../../img/bcm-cooling/Thermal-2.png';
 
 import temp from './../../img/project/aerodynamic-thumbnail.png';
 
@@ -19,14 +20,14 @@ export class Projects extends Component {
                 type:"modelling",
                 thumbnail:aerodynamicThumbnail,
                 link:"/aerodynamics"},
-                {name:"Team Website",
-                type:"website",
-                link:"https://macformularacing.com/",
-                thumbnail:websiteThumbnail},
                 {name:"Wiring Harness",
                 type:"modelling",
                 thumbnail:wireharnessThumbnail,
                 link:"/wiringharness"},
+                {name:"BCM Cooling Analysis",
+                type:"modelling",
+                thumbnail:bcmcoolingThumbnail,
+                link:"/pcbcooling"},
                 {name:"Front Wing Analysis",
                 type:"modelling",
                 thumbnail:frontwingThumbnail,
@@ -35,9 +36,10 @@ export class Projects extends Component {
                 type:"modelling",
                 thumbnail:assemblyThumbnail,
                 link:"/accumulatorassembly"},
-                // {name:"Monocoque Analysis",
-                // type:"modelling",
-                // thumbnail:temp}
+                {name:"Team Website",
+                type:"website",
+                link:"https://macformularacing.com/",
+                thumbnail:websiteThumbnail}
                 
             ]
         }
@@ -53,7 +55,6 @@ export class Projects extends Component {
                     project={project}
                     />
                 </div>))}   
-                <div className="projects-project-link-container"/>
                          
             </div>
         )
