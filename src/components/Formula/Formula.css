@@ -41,7 +41,7 @@
         margin:0px auto;}
     
         .intro-paragraph-container{
-            width:90%;
+            width:80vw;
             max-width:800px;
             margin:auto;
             margin:20px auto 80px auto;
@@ -49,7 +49,7 @@
         }
         
         .intro-paragraph{
-            font-size:2vw;
+            font-size:2.5vw;
             font-weight:200;
             line-height: 1.4;
         }
@@ -60,7 +60,7 @@
         }
     
             .formula-name{
-                padding-left: 4vw;
+                padding-left: 9vw;
                 color:rgb(87, 87, 87);
                 font-size:4vw;
                 font-family: 'Rajdhani', sans-serif;}
