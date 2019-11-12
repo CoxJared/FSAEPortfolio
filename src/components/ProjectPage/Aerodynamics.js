@@ -2,10 +2,10 @@ import React, { Component } from 'react'
 
 
 import topdown from './../../img/aerodynamics/full-sim.png'
-import sidepodlayup from './../../img/aerodynamics/side-pod-layup.png';
+import sidepodlayup from './../../img/aerodynamics/side-pod-layup.jpg';
 import highlight from './../../img/aerodynamics/test.png';
 import onfloor from './../../img/aerodynamics/aero on floor.jpg';
-import real from './../../img/aerodynamics/sawhorses.png';
+import real from './../../img/aerodynamics/sawhorses.jpg';
 
 import ProjectPage from './ProjectPage';
 

@@ -8,8 +8,7 @@ import wireharnessThumbnail from './../../img/WiringHarness/original.png';
 import frontwingThumbnail from './../../img/aerodynamics/new wing.png';
 import assemblyThumbnail from './../../img/accumulatorassembly/full-accumulator.png';
 import bcmcoolingThumbnail from './../../img/bcm-cooling/Thermal-2.png';
-
-import temp from './../../img/project/aerodynamic-thumbnail.png';
+import swanneckThumbnail from './../../img/swannecks/finished.PNG';
 
 export class Projects extends Component {
     constructor(props){
@@ -28,6 +27,10 @@ export class Projects extends Component {
                 type:"modelling",
                 thumbnail:bcmcoolingThumbnail,
                 link:"/pcbcooling"},
+                {name:"Composite Optimization",
+                type:"modelling",
+                link:"/swannecks",
+                thumbnail:swanneckThumbnail},
                 {name:"Front Wing Analysis",
                 type:"modelling",
                 thumbnail:frontwingThumbnail,
@@ -39,7 +42,7 @@ export class Projects extends Component {
                 {name:"Team Website",
                 type:"website",
                 link:"https://macformularacing.com/",
-                thumbnail:websiteThumbnail}
+                thumbnail:websiteThumbnail},
                 
             ]
         }
@@ -55,7 +58,13 @@ export class Projects extends Component {
                     project={project}
                     />
                 </div>))}   
-                         
+                {window.innerWidth > 800 ? 
+                <>
+                <div className="projects-project-link-container"/>
+                <div className="projects-project-link-container"></div>
+                </>
+                :
+                <div/>}
             </div>
         )
     }

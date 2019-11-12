@@ -4,8 +4,8 @@ import ProjectPage from './ProjectPage';
 import fullrender from './../../img/accumulatorassembly/full-accumulator.png';
 import topview from './../../img/accumulatorassembly/topview.png'
 import attachment from './../../img/accumulatorassembly/disasembled.png';
-import air from './../../img/accumulatorassembly/AIR screenshot.png';
-import screenshot from './../../img/accumulatorassembly/assembly-screenshot.png'
+import air from './../../img/accumulatorassembly/AIR screenshot.jpg';
+import screenshot from './../../img/accumulatorassembly/assembly-screenshot.jpg'
 
 
 export class AccumulatorAssembly extends Component {

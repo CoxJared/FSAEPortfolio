@@ -8,6 +8,7 @@ import WiringHarness from './components/ProjectPage/WiringHarness';
 import FrontWing from './components/ProjectPage/FrontWing';
 import AccumulatorAssembly from './components/ProjectPage/AccumulatorAssembly';
 import BcmCooling from './components/ProjectPage/BcmCooling';
+import SwanNecks from './components/ProjectPage/SwanNecks';
 
 function App() {
   return (
@@ -26,6 +27,8 @@ function App() {
           component={AccumulatorAssembly} />
         <Route path="/pcbcooling" 
           component={BcmCooling} />
+        <Route path="/swannecks" 
+          component={SwanNecks} />
       </div>
     </Router>
   );
