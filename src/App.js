@@ -9,6 +9,7 @@ import FrontWing from './components/ProjectPage/FrontWing';
 import AccumulatorAssembly from './components/ProjectPage/AccumulatorAssembly';
 import BcmCooling from './components/ProjectPage/BcmCooling';
 import SwanNecks from './components/ProjectPage/SwanNecks';
+import Cooling from './components/ProjectPage/Cooling';
 
 function App() {
   return (
@@ -29,6 +30,8 @@ function App() {
           component={BcmCooling} />
         <Route path="/swannecks" 
           component={SwanNecks} />
+        <Route path="/coolingloop" 
+          component={Cooling} />
       </div>
     </Router>
   );

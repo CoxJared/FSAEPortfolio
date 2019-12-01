@@ -9,6 +9,7 @@ import frontwingThumbnail from './../../img/aerodynamics/new wing.png';
 import assemblyThumbnail from './../../img/accumulatorassembly/full-accumulator.png';
 import bcmcoolingThumbnail from './../../img/bcm-cooling/Thermal-2.png';
 import swanneckThumbnail from './../../img/swannecks/finished.PNG';
+import coolingLoopThumbnail from './../../img/cooling/motor cooling loop.png';
 
 export class Projects extends Component {
     constructor(props){
@@ -27,6 +28,10 @@ export class Projects extends Component {
                 type:"modelling",
                 thumbnail:bcmcoolingThumbnail,
                 link:"/pcbcooling"},
+                {name:"Cooling Loop Model",
+                type:"modelling",
+                thumbnail:coolingLoopThumbnail,
+                link:"/coolingloop"},
                 {name:"Composite Optimization",
                 type:"modelling",
                 link:"/swannecks",
@@ -58,10 +63,9 @@ export class Projects extends Component {
                     project={project}
                     />
                 </div>))}   
-                {window.innerWidth > 800 ? 
+                {window.innerWidth > 900 ? 
                 <>
                 <div className="projects-project-link-container"/>
-                <div className="projects-project-link-container"></div>
                 </>
                 :
                 <div/>}
