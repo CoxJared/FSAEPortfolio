@@ -10,16 +10,17 @@ import assemblyThumbnail from './../../img/accumulatorassembly/full-accumulator.
 import bcmcoolingThumbnail from './../../img/bcm-cooling/Thermal-2.png';
 import swanneckThumbnail from './../../img/swannecks/finished.PNG';
 import coolingLoopThumbnail from './../../img/cooling/motor cooling loop.png';
+import futureconcept from './../../img/future-concepts/Untitled.JPG';
 
 export class Projects extends Component {
     constructor(props){
         super(props)
         this.state = {
             projects:[
-                {name:"Aerodynamic Development",
+                {name:"Concepts",
                 type:"modelling",
-                thumbnail:aerodynamicThumbnail,
-                link:"/aerodynamics"},
+                thumbnail:futureconcept,
+                link:"/concepts"},
                 {name:"Wiring Harness",
                 type:"modelling",
                 thumbnail:wireharnessThumbnail,
@@ -28,6 +29,10 @@ export class Projects extends Component {
                 type:"modelling",
                 thumbnail:bcmcoolingThumbnail,
                 link:"/pcbcooling"},
+                {name:"Aerodynamic Development",
+                type:"modelling",
+                thumbnail:aerodynamicThumbnail,
+                link:"/aerodynamics"},
                 {name:"Cooling Loop Model",
                 type:"modelling",
                 thumbnail:coolingLoopThumbnail,
@@ -63,12 +68,12 @@ export class Projects extends Component {
                     project={project}
                     />
                 </div>))}   
-                {window.innerWidth > 900 ? 
+                {/* {window.innerWidth > 900 ? 
                 <>
                 <div className="projects-project-link-container"/>
                 </>
                 :
-                <div/>}
+                <div/>} */}
             </div>
         )
     }

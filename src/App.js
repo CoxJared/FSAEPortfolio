@@ -10,6 +10,7 @@ import AccumulatorAssembly from './components/ProjectPage/AccumulatorAssembly';
 import BcmCooling from './components/ProjectPage/BcmCooling';
 import SwanNecks from './components/ProjectPage/SwanNecks';
 import Cooling from './components/ProjectPage/Cooling';
+import FutureConcpets from './components/ProjectPage/FutureConcpets';
 
 function App() {
   return (
@@ -32,6 +33,8 @@ function App() {
           component={SwanNecks} />
         <Route path="/coolingloop" 
           component={Cooling} />
+          <Route path="/concepts" 
+          component={FutureConcpets} />
       </div>
     </Router>
   );
