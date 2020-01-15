@@ -4,6 +4,7 @@ import ProjectPage from './ProjectPage';
 import mainpic from './../../img/future-concepts/20k Render.png'
 import gearbox from './../../img/future-concepts/naked.png';
 import cooling from './../../img/future-concepts/cooling Screenshot.png';
+import offblue from './../../img/future-concepts/final off-blue png.png';
 
 export class FutureConcpets extends Component {
     render() {
@@ -13,6 +14,8 @@ export class FutureConcpets extends Component {
             images={[
                 {image:mainpic,
                 description:"New Aero Package and Vinyl Wrap Design"},
+                {image:offblue,
+                    description:"New Aero Package and Vinyl Wrap Design"},
                 {image:gearbox,
                 description:"New Gearbox Design"},
                 {image:cooling,
