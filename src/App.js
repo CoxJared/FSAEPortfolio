@@ -11,6 +11,8 @@ import BcmCooling from './components/ProjectPage/BcmCooling';
 import SwanNecks from './components/ProjectPage/SwanNecks';
 import Cooling from './components/ProjectPage/Cooling';
 import FutureConcpets from './components/ProjectPage/FutureConcpets';
+import VinylWrap from './components/ProjectPage/VinylWrap';
+import Drawings from './components/ProjectPage/Drawings';
 
 function App() {
   return (
@@ -35,6 +37,10 @@ function App() {
           component={Cooling} />
           <Route path="/concepts" 
           component={FutureConcpets} />
+                    <Route path="/livery" 
+          component={VinylWrap} />
+          <Route path="/drawings" 
+          component={Drawings} />
       </div>
     </Router>
   );

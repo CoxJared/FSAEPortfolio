@@ -11,28 +11,42 @@ import bcmcoolingThumbnail from './../../img/bcm-cooling/Thermal-2.png';
 import swanneckThumbnail from './../../img/swannecks/finished.PNG';
 import coolingLoopThumbnail from './../../img/cooling/motor cooling loop.png';
 import futureconcept from './../../img/future-concepts/Untitled.JPG';
+import vinylwrap from './../../img/vinylwrap/darker.JPG';
+import drawthumbnail from './../../img/drawings/thub.png';
 
 export class Projects extends Component {
     constructor(props){
         super(props)
         this.state = {
             projects:[
-                {name:"Concepts",
+                {name:"2020 Livery",
                 type:"modelling",
-                thumbnail:futureconcept,
-                link:"/concepts"},
+                thumbnail:vinylwrap,
+                link:"/livery"},
                 {name:"Wiring Harness",
                 type:"modelling",
                 thumbnail:wireharnessThumbnail,
                 link:"/wiringharness"},
-                {name:"BCM Cooling Analysis",
+                {name:"Technical Drawings",
                 type:"modelling",
-                thumbnail:bcmcoolingThumbnail,
-                link:"/pcbcooling"},
+                thumbnail:drawthumbnail,
+                link:"/drawings"},
+                {name:"Design Concepts",
+                type:"modelling",
+                thumbnail:futureconcept,
+                link:"/concepts"},
                 {name:"Aerodynamic Development",
                 type:"modelling",
                 thumbnail:aerodynamicThumbnail,
                 link:"/aerodynamics"},
+                {name:"Accumulator Assembly Documentation",
+                type:"modelling",
+                thumbnail:assemblyThumbnail,
+                link:"/accumulatorassembly"},
+                {name:"BCM Cooling Analysis",
+                type:"modelling",
+                thumbnail:bcmcoolingThumbnail,
+                link:"/pcbcooling"},
                 {name:"Cooling Loop Model",
                 type:"modelling",
                 thumbnail:coolingLoopThumbnail,
@@ -45,10 +59,6 @@ export class Projects extends Component {
                 type:"modelling",
                 thumbnail:frontwingThumbnail,
                 link:"/frontwing"},
-                {name:"Accumulator Assembly",
-                type:"modelling",
-                thumbnail:assemblyThumbnail,
-                link:"/accumulatorassembly"},
                 {name:"Team Website",
                 type:"website",
                 link:"https://macformularacing.com/",
@@ -68,12 +78,12 @@ export class Projects extends Component {
                     project={project}
                     />
                 </div>))}   
-                {/* {window.innerWidth > 900 ? 
+                {window.innerWidth > 900 ? 
                 <>
                 <div className="projects-project-link-container"/>
                 </>
                 :
-                <div/>} */}
+                <div/>}
             </div>
         )
     }

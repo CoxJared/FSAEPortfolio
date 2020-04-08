@@ -12,7 +12,7 @@ export class AccumulatorAssembly extends Component {
     render() {
         return (
             <ProjectPage
-            title="Accumulator Assembly"
+            title="Accumulator Assembly Documentation"
             images={[{image:fullrender,
             description:"Cutaway of enclosure to show cell configuration"},
             {image:topview,

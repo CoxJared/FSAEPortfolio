@@ -2,8 +2,7 @@ import React, { Component } from 'react'
 
 
 import topdown from './../../img/aerodynamics/full-sim.png'
-import sidepodlayup from './../../img/aerodynamics/side-pod-layup.jpg';
-import highlight from './../../img/aerodynamics/test.png';
+import highlight from './../../img/aerodynamics/just-aero.png';
 import onfloor from './../../img/aerodynamics/aero on floor.jpg';
 import real from './../../img/aerodynamics/sawhorses.jpg';
 
@@ -21,7 +20,7 @@ export class Aerodynamics extends Component {
             title="Aerodynamic Development"
             images={[
                 {image: highlight,
-                description:"Model of our vehicle, aerodynamics highlighted"},
+                description:"Model of our vehicle's 2019 aerodynamic package"},
                 {image: topdown,
                 description:"Full car CFD simulation to analyze performance"},
                 // {image: sidepodlayup,
@@ -30,7 +29,7 @@ export class Aerodynamics extends Component {
                 description:"Completed aero-pack components"},
                 {image: real,
                 description:"Completed package mounted on car"}]}
-            description="Leading the aerodynamic subteam, we design and manufacture components to increase our vehicles performance - increasing downforce to allow better handling around corners and reducing drag to increase efficiency. In the 2019 season my primary responsibility was in manufacturing all the components.  Using the VARTM manufacturing method, i created custom molds and manufactured the carbon-fibre (CFRP - Carbon Fibre Reinforced Polymer) components for the aerodynamic package.  The components i was responsible for manufacturing were; front wing, side pods, nose cone, undertray and rear wing.  In the 2020 season my responsiblity is with management of development for the new aerodynamic package.  With the knowledge we have gained in the previous season, we have a better understanding of our limitations with manufacturing and can increase the complexity of our components accordingly."
+            description="Leading the aerodynamic subteam, we design and manufacture components to increase our vehicles performance - increasing downforce to allow better handling around corners and reducing drag to increase efficiency. In the 2019 season my primary responsibility was in manufacturing all the components.  Using the VARTM manufacturing method, i created custom molds and manufactured the carbon-fibre (CFRP - Carbon Fibre Reinforced Polymer) components for the aerodynamic package.  The components i was responsible for manufacturing were; front wing, side pods, nose cone, undertray and rear wing.  In the 2020 season my responsiblity was with management of development for the new aerodynamic package.  With the knowledge we have gained in the previous season, we have a better understanding of our limitations with manufacturing and can increase the complexity of our components accordingly."
             />
         )
     }
