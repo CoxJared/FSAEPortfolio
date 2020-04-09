@@ -10,7 +10,7 @@ import assemblyThumbnail from './../../img/accumulatorassembly/full-accumulator.
 import bcmcoolingThumbnail from './../../img/bcm-cooling/Thermal-2.png';
 import swanneckThumbnail from './../../img/swannecks/finished.PNG';
 import coolingLoopThumbnail from './../../img/cooling/motor cooling loop.png';
-import futureconcept from './../../img/future-concepts/Untitled.JPG';
+import futureconcept from './../../img/future-concepts/thumbnail.png';
 import vinylwrap from './../../img/vinylwrap/darker.JPG';
 import drawthumbnail from './../../img/drawings/thub.png';
 
