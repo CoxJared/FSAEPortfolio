@@ -55,10 +55,10 @@ export class Projects extends Component {
                 type:"modelling",
                 link:"/swannecks",
                 thumbnail:swanneckThumbnail},
-                {name:"Front Wing Analysis",
-                type:"modelling",
-                thumbnail:frontwingThumbnail,
-                link:"/frontwing"},
+                // {name:"Front Wing Analysis",
+                // type:"modelling",
+                // thumbnail:frontwingThumbnail,
+                // link:"/frontwing"},
                 {name:"Team Website",
                 type:"website",
                 link:"https://macformularacing.com/",
@@ -80,6 +80,7 @@ export class Projects extends Component {
                 </div>))}   
                 {window.innerWidth > 900 ? 
                 <>
+                <div className="projects-project-link-container"/>
                 <div className="projects-project-link-container"/>
                 </>
                 :

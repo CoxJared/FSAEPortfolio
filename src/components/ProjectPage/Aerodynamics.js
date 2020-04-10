@@ -5,6 +5,7 @@ import topdown from './../../img/aerodynamics/full-sim.png'
 import highlight from './../../img/aerodynamics/just-aero.png';
 import onfloor from './../../img/aerodynamics/aero on floor.jpg';
 import real from './../../img/aerodynamics/sawhorses.jpg';
+import frontwing from './../../img/front wing/front-wing-streamlines.png';
 
 import ProjectPage from './ProjectPage';
 
@@ -23,6 +24,8 @@ export class Aerodynamics extends Component {
                 description:"Model of our vehicle's 2019 aerodynamic package"},
                 {image: topdown,
                 description:"Full car CFD simulation to analyze performance"},
+                {image: frontwing,
+                    description:"Front Wing Streamlines"},
                 // {image: sidepodlayup,
                 // description:"Side pod being layed up for infusion"},
                 {image: onfloor,
