@@ -8,7 +8,7 @@ export class Drawings extends Component {
     render() {
         return (
             <ProjectPage
-            title="2020 Livery"
+            title="Technical Drawings"
             images={[
                 {image: front,
                 description:"Left View"},

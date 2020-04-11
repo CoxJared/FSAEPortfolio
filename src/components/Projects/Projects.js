@@ -11,7 +11,7 @@ import bcmcoolingThumbnail from './../../img/bcm-cooling/Thermal-2.png';
 import swanneckThumbnail from './../../img/swannecks/finished.PNG';
 import coolingLoopThumbnail from './../../img/cooling/motor cooling loop.png';
 import futureconcept from './../../img/future-concepts/thumbnail.png';
-import vinylwrap from './../../img/vinylwrap/darker.JPG';
+import vinylwrap from './../../img/vinylwrap/side-view.jpeg';
 import drawthumbnail from './../../img/drawings/thub.png';
 
 export class Projects extends Component {
@@ -19,7 +19,7 @@ export class Projects extends Component {
         super(props)
         this.state = {
             projects:[
-                {name:"2020 Livery",
+                {name:"2020 Livery Design",
                 type:"modelling",
                 thumbnail:vinylwrap,
                 link:"/livery"},
