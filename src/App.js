@@ -13,6 +13,7 @@ import Cooling from './components/ProjectPage/Cooling';
 import FutureConcpets from './components/ProjectPage/FutureConcpets';
 import VinylWrap from './components/ProjectPage/VinylWrap';
 import Drawings from './components/ProjectPage/Drawings';
+import WiringHarness2020 from './components/ProjectPage/WiringHarness2020';
 
 function App() {
   return (
@@ -41,6 +42,8 @@ function App() {
           component={VinylWrap} />
           <Route path="/drawings" 
           component={Drawings} />
+          <Route path="/2020wiringharness"
+          component={WiringHarness2020}/>
       </div>
     </Router>
   );

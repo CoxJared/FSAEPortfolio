@@ -14,6 +14,9 @@
 }
 .project-link-container:hover{
     cursor: pointer;
+    height:325px;
+    width:325px;
+    transition: .5s;
 }
 
     .project-thumbnail{
@@ -28,6 +31,7 @@
         opacity: 1;
         box-shadow: 3px 3px 5px #777;
         transition: .3s ease all;
+        
         z-index:2;
 
     }
@@ -50,7 +54,7 @@
     }
 
 
-    @media only screen and (max-width: 1000px) {
+    @media only screen and (max-width: 900px) {
 
         .project-link-link{
             text-decoration: none;
@@ -70,6 +74,10 @@
         }
         .project-link-container:hover{
             cursor: pointer;
+            width:45vw;
+            height:45vw;
+            max-width:45w;
+            max-height:45vw;
         }
         
             .project-thumbnail{
