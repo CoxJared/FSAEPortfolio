@@ -11,11 +11,11 @@ export class Drawings extends Component {
             title="Technical Drawings"
             images={[
                 {image: front,
-                description:"Left View"},
-                {image: top,
                 description:"Front View"},
+                {image: top,
+                description:"Top View"},
                 {image: side,
-                    description:"Right View",}
+                    description:"Left View",}
                 
             ]}
             description="Teams are requires to submit formal design documentation for competition, including overview of the vehicle systems and drawings to illustrate design features.  I created these drawings to give an overview of of vehicle and provide insight into some of the technical aspects that make our vehicle innovative and unique."
