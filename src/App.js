@@ -14,6 +14,7 @@ import FutureConcpets from './components/ProjectPage/FutureConcpets';
 import VinylWrap from './components/ProjectPage/VinylWrap';
 import Drawings from './components/ProjectPage/Drawings';
 import WiringHarness2020 from './components/ProjectPage/WiringHarness2020';
+import BatteryPackaging from './components/ProjectPage/BatteryPackaging';
 
 function App() {
   return (
@@ -36,14 +37,16 @@ function App() {
           component={SwanNecks} />
         <Route path="/coolingloop" 
           component={Cooling} />
-          <Route path="/concepts" 
+        <Route path="/concepts" 
           component={FutureConcpets} />
-                    <Route path="/livery" 
+          <Route path="/livery" 
           component={VinylWrap} />
           <Route path="/drawings" 
           component={Drawings} />
           <Route path="/2020wiringharness"
           component={WiringHarness2020}/>
+          <Route path="/batterydesign"
+          component={BatteryPackaging}/>
       </div>
     </Router>
   );

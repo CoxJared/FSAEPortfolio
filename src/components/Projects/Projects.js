@@ -13,16 +13,18 @@ import futureconcept from './../../img/future-concepts/thumbnail.png';
 import vinylwrap from './../../img/vinylwrap/side-view.jpeg';
 import drawthumbnail from './../../img/drawings/thub.png';
 import newwiringthumbnail from './../../img/newwiringharness/newer-cutaway.JPG';
+import batterythumbnail from './../../img/BatteryPackaging/battery-cut.png';
 
 export class Projects extends Component {
     constructor(props){
         super(props)
         this.state = {
             projects:[
-                {name:"Livery Design",
+                {name:"Battery Design",
                 type:"modelling",
-                thumbnail:vinylwrap,
-                link:"/livery"},
+                thumbnail:batterythumbnail,
+                link:"/batterydesign"},
+                
                 {name:"2020 Wiring Harness",
                 type:"modelling",
                 thumbnail:newwiringthumbnail,
@@ -31,18 +33,22 @@ export class Projects extends Component {
                 type:"modelling",
                 thumbnail:drawthumbnail,
                 link:"/drawings"},
+                {name:"Livery Design",
+                type:"modelling",
+                thumbnail:vinylwrap,
+                link:"/livery"},
                 {name:"Design Concepts",
                 type:"modelling",
                 thumbnail:futureconcept,
-                link:"/concepts"},
-                {name:"Accumulator Assembly Documentation",
-                type:"modelling",
-                thumbnail:assemblyThumbnail,
-                link:"/accumulatorassembly"},
+                link:"/concepts"}, 
                 {name:"2019 Wiring Harness",
                 type:"modelling",
                 thumbnail:wireharnessThumbnail,
                 link:"/wiringharness"},
+                {name:"Accumulator Assembly Documentation",
+                type:"modelling",
+                thumbnail:assemblyThumbnail,
+                link:"/accumulatorassembly"},
                 {name:"Aerodynamic Development",
                 type:"modelling",
                 thumbnail:aerodynamicThumbnail,
@@ -84,7 +90,7 @@ export class Projects extends Component {
                 </div>))}   
                 {window.innerWidth > 900 ? 
                 <>
-                <div className="projects-project-link-container"/>
+                {/* <div className="projects-project-link-container"/> */}
                 {/* <div className="projects-project-link-container"/> */}
                 </>
                 :
