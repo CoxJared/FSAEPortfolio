@@ -42,6 +42,25 @@
             float:left;
         }
 
+        .resume-tag{
+            border:2px solid rgb(40, 142, 196);
+            margin-left:40px;
+            font-size:21px;
+            float:left;
+            height:29px;
+            margin-top:30px;
+            padding:7px 15px 5px 15px;
+            color:rgb(41, 119, 203);
+            text-decoration: none;
+            border-radius: 7px;
+            transition: .5s;
+        }
+        .resume-tag:hover{
+            border:2px solid rgb(0, 166, 255);
+            color:rgb(0, 123, 255);
+            transition: .5s;
+            box-shadow: 1px 1px 8px rgb(130, 130, 130);
+        }
 
 
         .home-link-container{
