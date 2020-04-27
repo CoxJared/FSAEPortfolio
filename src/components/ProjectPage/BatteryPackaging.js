@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import ProjectPage from './ProjectPage';
 
 import cutaway from './../../img/BatteryPackaging/battery-cut.png'
+import front from './../../img/BatteryPackaging/batt-front.png';
 import popup from './../../img/BatteryPackaging/popped out.png'
 import modules from './../../img/BatteryPackaging/one module.png'
 import inchassis from './../../img/BatteryPackaging/chassis-cut.png';
@@ -14,6 +15,8 @@ export class BatteryPackaging extends Component {
             images={[
                 {image: cutaway,
                 description:"Photoview 360 Render: Right side off showing cells"},
+                {image: front,
+                    description:"Front intakes and BMS enclosure"},
                 {image: popup,
                 description:"Single Module lifted out of battery pack"},
                 {image: modules,
