@@ -3,7 +3,7 @@ import './Projects.css';
 import ProjectLink from '../ProjectLink/ProjectLink';
 
 import websiteThumbnail from './../../img/project/website-thumbnail.jpg';
-import aerodynamicThumbnail from './../../img/aerodynamics/thumbnail.png';
+import aerodynamicThumbnail from './../../img/aerodynamics/just-aero.png';
 import wireharnessThumbnail from './../../img/WiringHarness/original.png';
 import assemblyThumbnail from './../../img/accumulatorassembly/full-accumulator.png';
 import bcmcoolingThumbnail from './../../img/bcm-cooling/Thermal-2.png';
@@ -20,7 +20,7 @@ export class Projects extends Component {
         super(props)
         this.state = {
             projects:[
-                {name:"Battery Design",
+                {name:"Battery Packaging",
                 type:"modelling",
                 thumbnail:batterythumbnail,
                 link:"/batterydesign"},
@@ -36,34 +36,35 @@ export class Projects extends Component {
                 type:"modelling",
                 thumbnail:vinylwrap,
                 link:"/livery"},
-                {name:"Design Concepts",
-                type:"modelling",
-                thumbnail:futureconcept,
-                link:"/concepts"}, 
                 {name:"2019 Wiring Harness",
                 type:"modelling",
                 thumbnail:wireharnessThumbnail,
                 link:"/wiringharness"},
+                {name:"Design Concepts",
+                type:"modelling",
+                thumbnail:futureconcept,
+                link:"/concepts"}, 
+                
                 {name:"Accumulator Assembly Documentation",
                 type:"modelling",
                 thumbnail:assemblyThumbnail,
                 link:"/accumulatorassembly"},
-                {name:"Aerodynamic Development",
+                {name:"Aerodynamic Manufacturing",
                 type:"modelling",
                 thumbnail:aerodynamicThumbnail,
                 link:"/aerodynamics"},
-                {name:"BCM Cooling Analysis",
-                type:"modelling",
-                thumbnail:bcmcoolingThumbnail,
-                link:"/pcbcooling"},
-                {name:"Cooling Loop Model",
-                type:"modelling",
-                thumbnail:coolingLoopThumbnail,
-                link:"/coolingloop"},
-                {name:"Composite Optimization",
-                type:"modelling",
-                link:"/swannecks",
-                thumbnail:swanneckThumbnail},
+                // {name:"BCM Cooling Analysis",
+                // type:"modelling",
+                // thumbnail:bcmcoolingThumbnail,
+                // link:"/pcbcooling"},
+                // {name:"Cooling Loop Model",
+                // type:"modelling",
+                // thumbnail:coolingLoopThumbnail,
+                // link:"/coolingloop"},
+                // {name:"Composite Optimization",
+                // type:"modelling",
+                // link:"/swannecks",
+                // thumbnail:swanneckThumbnail},
                 // {name:"Front Wing Analysis",
                 // type:"modelling",
                 // thumbnail:frontwingThumbnail,
