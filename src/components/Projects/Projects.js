@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import './Projects.css';
 import ProjectLink from '../ProjectLink/ProjectLink';
 
-import websiteThumbnail from './../../img/project/website-thumbnail.jpg';
+import websiteThumbnail from './../../img/project/website-thumbnail.png';
 import aerodynamicThumbnail from './../../img/aerodynamics/just-aero.png';
 import wireharnessThumbnail from './../../img/WiringHarness/original.png';
 import assemblyThumbnail from './../../img/accumulatorassembly/full-accumulator.png';
