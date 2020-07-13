@@ -19,7 +19,7 @@ export class ProfileBox extends Component {
 
                         <i class="fa fa-linkedin" style={{fontSize:"45px",color:"white"}}></i>
                     </a>
-                    <a className="resume-tag"href={resume} target="_blank">resume</a>
+                    <a className="resume-tag"href={resume} target="_blank" rel="noopener noreferrer">resume</a>
                     </div>
                     :<div />
                     }
@@ -31,7 +31,7 @@ export class ProfileBox extends Component {
                 
                 <div className="home-link-container">
                 <Link to="/">
-                    <img className={`home-link ${this.props.home}`} src={homelogo}></img>
+                    <img className={`home-link ${this.props.home}`} src={homelogo} alt=""></img>
                 </Link>
                 </div>
 

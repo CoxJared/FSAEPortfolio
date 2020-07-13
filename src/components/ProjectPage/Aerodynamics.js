@@ -1,11 +1,9 @@
 import React, { Component } from 'react'
 
 
-import topdown from './../../img/aerodynamics/full-sim.png'
 import highlight from './../../img/aerodynamics/just-aero.png';
 import onfloor from './../../img/aerodynamics/aero on floor.jpg';
 import real from './../../img/aerodynamics/me-in-car.jpeg';
-import frontwing from './../../img/front wing/front-wing-streamlines.png';
 
 import sidepod from './../../img/aerodynamics/side-pod-vac.jpeg';
 import undertray from './../../img/aerodynamics/undertray-carbon.jpeg';
