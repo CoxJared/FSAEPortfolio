@@ -6,7 +6,7 @@ import tufast from './../../img/newwiringharness/newer-cutaway.png';
 import fullshot from './../../img/newwiringharness/full.png';
 import pedaltray from './../../img/newwiringharness/oedal-tray.png';
 import lvbcm from './../../img/newwiringharness/lv-bcm.png';
-import inverters from './../../img/newwiringharness/inverters.JPG';
+// import inverters from './../../img/newwiringharness/inverters.JPG';
 
 export class WiringHarness2020 extends Component {
     render() {

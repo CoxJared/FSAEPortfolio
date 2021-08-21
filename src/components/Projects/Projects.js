@@ -6,11 +6,11 @@ import websiteThumbnail from './../../img/project/website-thumbnail.png';
 import aerodynamicThumbnail from './../../img/aerodynamics/just-aero.png';
 import wireharnessThumbnail from './../../img/WiringHarness/original.png';
 import assemblyThumbnail from './../../img/accumulatorassembly/full-accumulator.png';
-import futureconcept from './../../img/future-concepts/thumbnail.png';
+// import futureconcept from './../../img/future-concepts/thumbnail.png';
 import vinylwrap from './../../img/vinylwrap/side-view.jpeg';
 import drawthumbnail from './../../img/drawings/thub.png';
 import newwiringthumbnail from './../../img/newwiringharness/newer-cutaway.JPG';
-import batterythumbnail from './../../img/BatteryPackaging/full-cut.png';
+// import batterythumbnail from './../../img/BatteryPackaging/full-cut.png';
 
 export class Projects extends Component {
     constructor(props) {
