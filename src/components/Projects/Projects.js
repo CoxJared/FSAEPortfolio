@@ -13,43 +13,50 @@ import newwiringthumbnail from './../../img/newwiringharness/newer-cutaway.JPG';
 import batterythumbnail from './../../img/BatteryPackaging/full-cut.png';
 
 export class Projects extends Component {
-    constructor(props){
+    constructor(props) {
         super(props)
         this.state = {
-            projects:[
-                {name:"Battery Packaging",
-                type:"modelling",
-                thumbnail:batterythumbnail,
-                link:"/batterydesign"},
-                {name:"2020 Wiring Harness",
-                type:"modelling",
-                thumbnail:newwiringthumbnail,
-                link:"/2020wiringharness"},
-                {name:"Technical Drawings",
-                type:"modelling",
-                thumbnail:drawthumbnail,
-                link:"/drawings"},
-                {name:"Livery Design",
-                type:"modelling",
-                thumbnail:vinylwrap,
-                link:"/livery"},
-                {name:"2019 Wiring Harness",
-                type:"modelling",
-                thumbnail:wireharnessThumbnail,
-                link:"/wiringharness"},
-                {name:"Design Concepts",
-                type:"modelling",
-                thumbnail:futureconcept,
-                link:"/concepts"}, 
-                
-                {name:"Accumulator Assembly Documentation",
-                type:"modelling",
-                thumbnail:assemblyThumbnail,
-                link:"/accumulatorassembly"},
-                {name:"Aerodynamic Manufacturing",
-                type:"modelling",
-                thumbnail:aerodynamicThumbnail,
-                link:"/aerodynamics"},
+            projects: [
+                // {name:"Battery Packaging",
+                // type:"modelling",
+                // thumbnail:batterythumbnail,
+                // link:"/batterydesign"},
+                {
+                    name: "Aerodynamic Manufacturing",
+                    type: "modelling",
+                    thumbnail: aerodynamicThumbnail,
+                    link: "/aerodynamics"
+                },
+                {
+                    name: "2020 Wiring Harness",
+                    type: "modelling",
+                    thumbnail: newwiringthumbnail,
+                    link: "/2020wiringharness"
+                },
+                {
+                    name: "Technical Drawings",
+                    type: "modelling",
+                    thumbnail: drawthumbnail,
+                    link: "/drawings"
+                },
+                {
+                    name: "2019 Wiring Harness",
+                    type: "modelling",
+                    thumbnail: wireharnessThumbnail,
+                    link: "/wiringharness"
+                },
+                // {name:"Design Concepts",
+                // type:"modelling",
+                // thumbnail:futureconcept,
+                // link:"/concepts"}, 
+
+                {
+                    name: "Accumulator Assembly Documentation",
+                    type: "modelling",
+                    thumbnail: assemblyThumbnail,
+                    link: "/accumulatorassembly"
+                },
+
                 // {name:"BCM Cooling Analysis",
                 // type:"modelling",
                 // thumbnail:bcmcoolingThumbnail,
@@ -66,11 +73,19 @@ export class Projects extends Component {
                 // type:"modelling",
                 // thumbnail:frontwingThumbnail,
                 // link:"/frontwing"},
-                {name:"Team Website",
-                type:"website",
-                link:"https://macformularacing.com/",
-                thumbnail:websiteThumbnail},
-                
+                {
+                    name: "Team Website",
+                    type: "website",
+                    link: "https://macformularacing.com/",
+                    thumbnail: websiteThumbnail
+                },
+                {
+                    name: "Livery Design",
+                    type: "modelling",
+                    thumbnail: vinylwrap,
+                    link: "/livery"
+                },
+
             ]
         }
     }
@@ -81,17 +96,17 @@ export class Projects extends Component {
             <div className="projects-container">
                 {this.state.projects.map(project => (
                     <div className="projects-project-link-container">
-                    <ProjectLink 
-                    project={project}
-                    />
-                </div>))}   
-                {window.innerWidth > 900 ? 
-                <>
-                {/* <div className="projects-project-link-container"/> */}
-                {/* <div className="projects-project-link-container"/> */}
-                </>
-                :
-                <div/>}
+                        <ProjectLink
+                            project={project}
+                        />
+                    </div>))}
+                {window.innerWidth > 900 ?
+                    <>
+                        {/* <div className="projects-project-link-container"/> */}
+                        {/* <div className="projects-project-link-container"/> */}
+                    </>
+                    :
+                    <div />}
             </div>
         )
     }
