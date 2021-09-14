@@ -60,23 +60,24 @@
     @media only screen and (max-width: 1100px) {
         .projects-container{
             width:100%;
-            max-width: 1100px;
+            max-width: 80vw;
             margin:0px auto;
             height:auto;
             display: grid;
             grid-template-columns:50vw 50vw;
             grid-template-rows:50vw 50vw;
             /* border:1px solid red; */
+            padding: 0
         }
         
             .projects-project-link-container{
                 position:relative;
                 flex: 1;
                 /* margin: auto; */
-                margin: 5vw;
-                width:50vw;
+                margin: 2vw;
+                width:30vw;
                 height:50vw;
-                max-width:50vw;
+                max-width:30vw;
                 max-height:50vw;
                 padding-top:1vw;
                 /* border:1px solid green; */
